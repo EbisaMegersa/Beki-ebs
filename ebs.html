@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBS TV</title>
+    <link rel="stylesheet" href="ebs.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div id="join-message">
+        <div id="username"> <span id="username-value">Unknown</span></div>
+        <button id="join-btn"><a href="https://t.me/et_tech_tipz">News</a></button>
+    </div>
+
+    <div id="status">
+        <div id="balance">Balance: 0</div>
+    </div>
+    <img src="tapebs.png" alt="Tap Photo" id="tap-photo" onclick="incrementBalance()">
+
+    <!-- Progress Bar -->
+<!-- Progress Bar -->
+    <div id="progress-container">
+      <div id="progress-bar"></div>
+    </div>
+    <div id="progress-number">1000</div> <!-- Add this line for the number below the progress bar -->
+    <div class="boostdiv">
+      <button class="boostbtn">Boost</button>
+    </div>
+    <div id="navbar">
+        <ul>
+            <li class="active"><img width="25px" src="navebs.png" alt="tap.png">Home</li>
+            <li class="norm"><img width="25px" src="navebs.png" alt="tap.png">Task</li>
+            <li class="norm"><img width="25px" src="navebs.png" alt="tap.png">Earn</li>
+        </ul>
+    </div>
+
+    <script src="ebs.js"></script>
+</body>
+</html>
